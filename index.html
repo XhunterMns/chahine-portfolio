@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chahine Mansouri | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+    }
+    .btn {
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="text-center py-10">
+    <h1 class="text-5xl font-bold">Chahine Mansouri</h1>
+    <p class="text-xl mt-4">Computer Engineer | Web Developer | Problem Solver</p>
+    <div class="mt-6">
+      <a href="#projects" class="btn bg-blue-500 text-white px-6 py-2 rounded-lg shadow-lg">View My Work</a>
+      <a href="#contact" class="btn bg-gray-800 text-white px-6 py-2 rounded-lg shadow-lg ml-4">Contact Me</a>
+    </div>
+  </header>
+
+  <section id="about" class="py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6">About Me</h2>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+      Hi, I’m Chahine, a passionate computer engineering student based in Tunisia. I love building innovative web applications and solving challenging problems. Whether it’s designing interactive experiences or diving into backend development, I thrive on creating impactful solutions.
+    </p>
+  </section>
+
+  <section id="projects" class="py-20 px-6 bg-gray-900 text-center">
+    <h2 class="text-4xl font-bold mb-6">My Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-semibold">Interactive Story Game</h3>
+        <p class="mt-4">A browser-based storytelling app that immerses users in interactive adventures using JavaScript.</p>
+      </div>
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-semibold">Student Management System</h3>
+        <p class="mt-4">A PyQt-based application to manage student records with CRUD functionality in French.</p>
+      </div>
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-semibold">Advanced Chat Platform</h3>
+        <p class="mt-4">An Omegle-like messaging platform built with JavaScript for real-time anonymous chat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+    <p class="text-lg mb-6">I’d love to hear from you! Feel free to reach out through the form below or connect with me on social media.</p>
+    <form action="#" class="max-w-xl mx-auto">
+      <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded-lg mb-4" required>
+      <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded-lg mb-4" required>
+      <textarea placeholder="Your Message" class="w-full px-4 py-2 rounded-lg mb-4" rows="4" required></textarea>
+      <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded-lg shadow-lg">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-6 bg-gray-800">
+    <p>&copy; 2025 Chahine Mansouri. All rights reserved.</p>
+  </footer>
+</body>
+</html>

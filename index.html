@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="transition-colors duration-500">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chahine | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center">
-  <div class="text-center">
-    <h1 class="text-4xl font-bold">👨‍💻 Hello, I'm Chahine</h1>
-    <p class="mt-4 text-lg">Welcome to my portfolio site!</p>
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-500">
+
+  <div class="max-w-4xl mx-auto p-8">
+    <!-- Header -->
+    <header class="flex justify-between items-center mb-10">
+      <h1 class="text-3xl font-bold">Chahine's Portfolio</h1>
+      <button id="toggleDark" class="px-4 py-2 border rounded">Toggle Dark Mode</button>
+    </header>
+
+    <!-- About -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+      <p>Hello! I'm Chahine Mansouri, a passionate web developer. Here's a showcase of my projects below.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+      <div id="project-list" class="grid gap-6 md:grid-cols-2"></div>
+    </section>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

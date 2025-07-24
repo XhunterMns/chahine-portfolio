@@ -1,1 +1,18 @@
 
+[
+  {
+    "title": "Chat-Tune",
+    "description": "A real-time anonymous chat app with skip feature",
+    "link": "#"
+  },
+  {
+    "title": "E-learning Platform",
+    "description": "Fullstack platform with user roles and payment system",
+    "link": "#"
+  },
+  {
+    "title": "PDF Report Generator",
+    "description": "Java app to generate styled PDF reports using OpenPDF",
+    "link": "#"
+  }
+]
